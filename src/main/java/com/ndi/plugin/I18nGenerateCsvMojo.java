@@ -14,6 +14,11 @@ import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.plugins.annotations.Parameter;
 
+/**
+ * 
+ * @author bilbauta
+ *
+ */
 @Mojo(name = "generate-csv")
 public class I18nGenerateCsvMojo extends I18nAbstractMojo {
 		

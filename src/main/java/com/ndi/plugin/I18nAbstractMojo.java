@@ -11,6 +11,11 @@ import java.util.Properties;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugins.annotations.Parameter;
 
+/**
+ * 
+ * @author bilbauta
+ *
+ */
 public abstract class I18nAbstractMojo extends AbstractMojo {
 
 	@Parameter(property="i18nNdi.mainLocal", required=true)

@@ -17,6 +17,11 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+/**
+ * 
+ * @author bilbauta
+ *
+ */
 @Mojo(name="generate-xls")
 public class I18nGenerateXlsMojo extends I18nAbstractMojo {
 	
